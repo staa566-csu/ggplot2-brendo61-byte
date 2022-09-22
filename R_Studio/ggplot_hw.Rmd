@@ -75,8 +75,9 @@ center_plot = ggplot(data = rolled_center_speaker,
   xlab("Frequency (Hz)") + 
   labs(title = "Center Channel") + 
   theme(plot.title = element_text(size = 10.5)) +
-    geom_vline(xintercept = 1000, linetype="solid", size = 0.3) +
-  geom_text(aes(x=1000, label="\nX-Over", y=85, size = 5), colour="black", angle=90)
+    geom_vline(xintercept = 1000, linetype="solid", size = 0.3, show.legend = FALSE) +
+  geom_text(aes(x=1000, label="\nX-Over", y=90, size = 4), colour="black", angle=90, show.legend = FALSE)
+
 
 # center_plot
 ```
@@ -137,8 +138,8 @@ right_plot = ggplot(data = rolled_right_speaker,
   labs(title = "Right Channel",
               caption = "Frequency sweeps taken 1 meter from speaker at intevals of 15 degress off-axis relative to forward direction of speaker.\nSingnal below cross-over point is produced via woofer and above x-over via the tweeter.") + 
   theme(plot.title = element_text(size = 10.5), plot.caption = element_text(size = 8.5, hjust = 0)) + 
-  geom_vline(xintercept = 800, linetype="solid", size = 0.3) +
-  geom_text(aes(x=800, label="\nX-Over", y=85, size = 5), colour="black", angle=90)
+  geom_vline(xintercept = 800, linetype="solid", size = 0.3, show.legend = FALSE) +
+  geom_text(aes(x=800, label="\nX-Over", y=90, size = 4), colour="black", angle=90, show.legend = FALSE)
 
 # right_plot
 ```

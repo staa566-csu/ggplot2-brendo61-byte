@@ -108,8 +108,9 @@ Between these Python files the raw data is generated and preprocessed for the as
 
 # Where are important Files?
 
-- R Markdown Report can be found at `../ggplot2-brendo61-byte/`
+- R Markdown Report can be found at `../ggplot2-brendo61-byte/r_report.pdf`
 - The R code is at `../ggplot2-brendo61-byte/R_Studio/ggplot_hw.rmd`
 - Python code is found under `../ggplot2-brendo61-byte/Python`
 - Readers can find the raw WAV files at `../ggplot2-brendo61-byte/speaker_samples`
 - The FFT files are can be found at `../ggplot2-brendo61-byte/fft_data`
+
