@@ -114,3 +114,10 @@ Between these Python files the raw data is generated and preprocessed for the as
 - Readers can find the raw WAV files at `../ggplot2-brendo61-byte/speaker_samples`
 - The FFT files are can be found at `../ggplot2-brendo61-byte/fft_data`
 
+# Conclusion
+
+For these speakers being in an unfinished basement their response is rather good. For both speakers it can be seen that there is some
+instability around the cross-over point and this is to be expected. Center channel has a wider amplitude in the 4kHz-10kHz range while in the
+same band the right channel is very linear. Both speakers begin dropping past 10kHz a more aggressively then desired.
+
+Overall both speakers designs show solid frequency responses and will within tolerance for proper digital EQ to fix.
